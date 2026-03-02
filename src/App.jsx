@@ -94,7 +94,7 @@ function Footer({ onNav }) {
                 <div style={{ fontSize: 10, color: "var(--gold)", fontFamily: "'Jost',sans-serif", letterSpacing: "0.15em" }}>فراز عبايه</div>
               </div>
             </div>
-            <p style={{ fontFamily: "'Jost',sans-serif", fontSize: 13, lineHeight: 1.8 }}>Premium abayas crafted with love and modesty. Serving women across India since 2018.</p>
+            <p style={{ fontFamily: "'Jost',sans-serif", fontSize: 13, lineHeight: 1.8 }}>Premium abayas crafted with love and modesty. Serving women across India since 2026.</p>
           </div>
           <div>
             <div style={{ fontSize: 11, color: "var(--gold)", fontFamily: "'Jost',sans-serif", fontWeight: 700, letterSpacing: "0.18em", textTransform: "uppercase", marginBottom: 14 }}>Collections</div>
@@ -105,7 +105,7 @@ function Footer({ onNav }) {
           <div>
             <div style={{ fontSize: 11, color: "var(--gold)", fontFamily: "'Jost',sans-serif", fontWeight: 700, letterSpacing: "0.18em", textTransform: "uppercase", marginBottom: 14 }}>Contact</div>
             <div style={{ fontFamily: "'Jost',sans-serif", fontSize: 13, marginBottom: 8, display: "flex", alignItems: "center", gap: 8 }}>
-              <WaIcon size={14} color="#25D366" /> WhatsApp: +91 70123 45678
+              <WaIcon size={14} color="#25D366" /> WhatsApp: +91 9543184629
             </div>
             <div style={{ fontFamily: "'Jost',sans-serif", fontSize: 13, color: "var(--text-muted)" }}>Mon–Sat · 9am–8pm IST</div>
           </div>
