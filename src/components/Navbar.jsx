@@ -1,10 +1,23 @@
 import { useState } from "react";
 import { CATS } from "../mockData";
 
-const Logo = ({ size = 40 }) => (
+/*const Logo = ({ size = 40 }) => (
   <div style={{ width: size, height: size, borderRadius: "50%", background: "linear-gradient(135deg,#1C1C1E,#2C2C2E)", border: "2px solid #C9A84C", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
     <span style={{ fontFamily: "'Cormorant Garamond',serif", color: "#C9A84C", fontSize: size * 0.38, fontWeight: 600 }}>F</span>
   </div>
+);*/
+
+const Logo = ({ size = 40 }) => (
+  <img
+    src="https://res.cloudinary.com/djrikegql/image/upload/v1772435756/1772289183645_obsyhw.png"
+    alt="Faraz Abaya Logo"
+    style={{
+      width: size,
+      height: size,
+      objectFit: "contain",
+      display: "block"
+    }}
+  />
 );
 
 export default function Navbar({ onNav, search, setSearch, cat, setCat }) {
