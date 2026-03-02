@@ -35,9 +35,6 @@ function Home({ products, onView, cat, setCat, search }) {
               Premium abayas for every occasion — from everyday grace to royal elegance.
             </p>
           </div>
-          /*<div style={{ width: 110, height: 110, borderRadius: 22, background: "linear-gradient(135deg,#1C1C1E,#2C2C2E)", border: "3px solid rgba(201,168,76,.4)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-            /*<span style={{ fontFamily: "'Cormorant Garamond',serif", color: "#C9A84C", fontSize: 48, fontWeight: 600 }}>F</span>*/
-          </div>*/
           <Logo size={110} />
         </div>
       </div>
@@ -88,9 +85,6 @@ function Footer({ onNav }) {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(200px,1fr))", gap: 32, marginBottom: 32 }}>
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 14 }}>
-              /*<div style={{ width: 44, height: 44, borderRadius: "50%", background: "linear-gradient(135deg,#1C1C1E,#2C2C2E)", border: "2px solid #C9A84C", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                /*<span style={{ fontFamily: "'Cormorant Garamond',serif", color: "#C9A84C", fontSize: 18, fontWeight: 600 }}>F</span>*/
-              </div>*/
               <Logo size={44} />
               <div>
                 <div className="font-display" style={{ fontSize: 20, color: "#FAF8F5" }}>Faraz Abaya</div>
