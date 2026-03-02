@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { CATS } from "../mockData";
+import Logo from "./Logo";
 
 /*const Logo = ({ size = 40 }) => (
   <div style={{ width: size, height: size, borderRadius: "50%", background: "linear-gradient(135deg,#1C1C1E,#2C2C2E)", border: "2px solid #C9A84C", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
@@ -7,7 +8,7 @@ import { CATS } from "../mockData";
   </div>
 );*/
 
-const Logo = ({ size = 40 }) => (
+/*const Logo = ({ size = 40 }) => (
   <img
     src="https://res.cloudinary.com/djrikegql/image/upload/v1772435756/1772289183645_obsyhw.png"
     alt="Faraz Abaya Logo"
@@ -18,7 +19,7 @@ const Logo = ({ size = 40 }) => (
       display: "block"
     }}
   />
-);
+);*/
 
 export default function Navbar({ onNav, search, setSearch, cat, setCat }) {
   const [dropOpen, setDropOpen] = useState(false);
