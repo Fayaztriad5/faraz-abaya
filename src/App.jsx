@@ -5,6 +5,7 @@ import ProductDetail from "./components/ProductDetail";
 import AdminPanel from "./components/AdminPanel";
 import globalStyles from "./styles";
 import { INITIAL_PRODUCTS, CATS, WHATSAPP } from "./mockData";
+import Logo from "./components/Logo";
 
 const WaIcon = ({ size = 20, color = "white" }) => (
   <svg viewBox="0 0 24 24" fill={color} style={{ width: size, height: size }}>
@@ -34,9 +35,10 @@ function Home({ products, onView, cat, setCat, search }) {
               Premium abayas for every occasion — from everyday grace to royal elegance.
             </p>
           </div>
-          <div style={{ width: 110, height: 110, borderRadius: 22, background: "linear-gradient(135deg,#1C1C1E,#2C2C2E)", border: "3px solid rgba(201,168,76,.4)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          /*<div style={{ width: 110, height: 110, borderRadius: 22, background: "linear-gradient(135deg,#1C1C1E,#2C2C2E)", border: "3px solid rgba(201,168,76,.4)", display: "flex", alignItems: "center", justifyContent: "center" }}>
             <span style={{ fontFamily: "'Cormorant Garamond',serif", color: "#C9A84C", fontSize: 48, fontWeight: 600 }}>F</span>
-          </div>
+          </div>*/
+          <Logo size={110} />
         </div>
       </div>
 
@@ -86,9 +88,10 @@ function Footer({ onNav }) {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(200px,1fr))", gap: 32, marginBottom: 32 }}>
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 14 }}>
-              <div style={{ width: 44, height: 44, borderRadius: "50%", background: "linear-gradient(135deg,#1C1C1E,#2C2C2E)", border: "2px solid #C9A84C", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              /*<div style={{ width: 44, height: 44, borderRadius: "50%", background: "linear-gradient(135deg,#1C1C1E,#2C2C2E)", border: "2px solid #C9A84C", display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <span style={{ fontFamily: "'Cormorant Garamond',serif", color: "#C9A84C", fontSize: 18, fontWeight: 600 }}>F</span>
-              </div>
+              </div>*/
+              <Logo size={44} />
               <div>
                 <div className="font-display" style={{ fontSize: 20, color: "#FAF8F5" }}>Faraz Abaya</div>
                 <div style={{ fontSize: 10, color: "var(--gold)", fontFamily: "'Jost',sans-serif", letterSpacing: "0.15em" }}>فراز عبايه</div>
